@@ -15,9 +15,10 @@ through a channel. **P** is considered to be the main sending process, and
 **Q** is sending acknowledgements. Each process has a send and a recieve
 buffer, and the channel is thought of as having 2 buffers (P->Q, Q->P).
 
-See [Report.pdf] for theory and proof, and [Implementation.pdf] for examples.
+See [03. Report.pdf] for theory and proof, and [04. Implementation.pdf]
+for examples.
 
 [Software Foundations]: https://github.com/iiithf/software-foundations
 [Balanced sliding window]: https://cse.iitkgp.ac.in/~pallab/dist_sys/Lec-02-SlidingWindow.pdf
-[Report.pdf]: docs/Report.pdf
-[Implementation.pdf]: docs/Implementation.pdf
+[03. Report.pdf]: docs/03.%20Report.pdf
+[04. Implementation.pdf]: docs/04.%20Implementation.pdf
