@@ -1,7 +1,7 @@
 Balanced sliding window is a protocol used where reliable in-order delivery
 of packets is required (like TCP).
 
-**Course**: Software Foundations, Spring 2020<br>
+**Course**: [Software Foundations], Spring 2020<br>
 **Taught by**: Prof. Venkatesh Chopella
 
 [Balanced sliding window], (or Selective Repeat sliding window) is modeled as
@@ -17,6 +17,7 @@ buffer, and the channel is thought of as having 2 buffers (P->Q, Q->P).
 
 See [Report.pdf] for theory and proof, and [Implementation.pdf] for examples.
 
+[Software Foundations]: https://github.com/iiithf/software-foundations
 [Balanced sliding window]: https://cse.iitkgp.ac.in/~pallab/dist_sys/Lec-02-SlidingWindow.pdf
 [Report.pdf]: docs/Report.pdf
 [Implementation.pdf]: docs/Implementation.pdf
