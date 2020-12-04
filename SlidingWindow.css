@@ -1,0 +1,43 @@
+* {
+  font-family: monospace;
+}
+body {
+  margin: auto;
+}
+table {
+  width: 90%;
+  text-align: center;
+  margin: 2em;
+  border-spacing: 1em;
+}
+
+
+.psend, .precv, .qsend, .qrecv, .pq, .qp {
+  background-color: yellow;
+  padding: 1em;
+}
+
+.packet {
+  font-size: 1.2em;
+  width: 2.4em;
+  outline-offset: -2px;
+}
+
+.submit {
+  text-align: center;
+}
+
+.next {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+.controller {
+  font-size: 1.2em;
+  padding: 0.8em 0;
+  background-color: wheat;
+}
+
+.status {
+  margin-bottom: 1em;
+}
