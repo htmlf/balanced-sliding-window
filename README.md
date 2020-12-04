@@ -6,9 +6,9 @@ of packets is required (like TCP).
 
 [Balanced sliding window], (or Selective Repeat sliding window) is modeled as
 transition system following in stages:
-1. Manual send
-2. Automatic send (Next)
-3. Automatic send (Next, Next 100)
+1. [Manual send](https://htmlf.github.io/balanced-sliding-window/SlidingWindow1.html)
+2. [Automatic send (Next)](https://htmlf.github.io/balanced-sliding-window/SlidingWindow2.html)
+3. [Automatic send (Next 100)](https://htmlf.github.io/balanced-sliding-window/SlidingWindow3.html)
 
 Two communicating processes **P** and **Q** send packets to each other,
 through a channel. **P** is considered to be the main sending process, and
